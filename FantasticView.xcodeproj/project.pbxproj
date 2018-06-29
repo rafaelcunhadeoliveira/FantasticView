@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5357C5A920E683B6005EA1F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357C5A820E683B6005EA1F9 /* AppDelegate.swift */; };
+		5357C5AB20E683B6005EA1F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357C5AA20E683B6005EA1F9 /* ViewController.swift */; };
+		5357C5AE20E683B6005EA1F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5357C5AC20E683B6005EA1F9 /* Main.storyboard */; };
+		5357C5B120E683B6005EA1F9 /* FantasticView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5357C5AF20E683B6005EA1F9 /* FantasticView.xcdatamodeld */; };
+		5357C5B320E683BA005EA1F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5357C5B220E683BA005EA1F9 /* Assets.xcassets */; };
+		5357C5B620E683BA005EA1F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5357C5B420E683BA005EA1F9 /* LaunchScreen.storyboard */; };
+		5357C5C120E683BB005EA1F9 /* FantasticViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357C5C020E683BB005EA1F9 /* FantasticViewTests.swift */; };
+		5357C5CC20E683BB005EA1F9 /* FantasticViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357C5CB20E683BB005EA1F9 /* FantasticViewUITests.swift */; };
+		5357C5DA20E68510005EA1F9 /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5357C5D920E68510005EA1F9 /* FantasticView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5357C5BD20E683BB005EA1F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5357C59D20E683B5005EA1F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5357C5A420E683B6005EA1F9;
+			remoteInfo = FantasticView;
+		};
+		5357C5C820E683BB005EA1F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5357C59D20E683B5005EA1F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5357C5A420E683B6005EA1F9;
+			remoteInfo = FantasticView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5357C5A520E683B6005EA1F9 /* FantasticView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasticView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5357C5A820E683B6005EA1F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5357C5AA20E683B6005EA1F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5357C5AD20E683B6005EA1F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5357C5B020E683B6005EA1F9 /* FantasticView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FantasticView.xcdatamodel; sourceTree = "<group>"; };
+		5357C5B220E683BA005EA1F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5357C5B520E683BA005EA1F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5357C5B720E683BA005EA1F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5357C5BC20E683BB005EA1F9 /* FantasticViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasticViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5357C5C020E683BB005EA1F9 /* FantasticViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticViewTests.swift; sourceTree = "<group>"; };
+		5357C5C220E683BB005EA1F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5357C5C720E683BB005EA1F9 /* FantasticViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasticViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5357C5CB20E683BB005EA1F9 /* FantasticViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticViewUITests.swift; sourceTree = "<group>"; };
+		5357C5CD20E683BB005EA1F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5357C5D920E68510005EA1F9 /* FantasticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5357C5A220E683B6005EA1F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5357C5B920E683BA005EA1F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5357C5C420E683BB005EA1F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5357C59C20E683B5005EA1F9 = {
+			isa = PBXGroup;
+			children = (
+				5357C5A720E683B6005EA1F9 /* FantasticView */,
+				5357C5BF20E683BB005EA1F9 /* FantasticViewTests */,
+				5357C5CA20E683BB005EA1F9 /* FantasticViewUITests */,
+				5357C5A620E683B6005EA1F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5357C5A620E683B6005EA1F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5357C5A520E683B6005EA1F9 /* FantasticView.app */,
+				5357C5BC20E683BB005EA1F9 /* FantasticViewTests.xctest */,
+				5357C5C720E683BB005EA1F9 /* FantasticViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5357C5A720E683B6005EA1F9 /* FantasticView */ = {
+			isa = PBXGroup;
+			children = (
+				5357C5A820E683B6005EA1F9 /* AppDelegate.swift */,
+				5357C5AA20E683B6005EA1F9 /* ViewController.swift */,
+				5357C5AC20E683B6005EA1F9 /* Main.storyboard */,
+				5357C5B220E683BA005EA1F9 /* Assets.xcassets */,
+				5357C5B420E683BA005EA1F9 /* LaunchScreen.storyboard */,
+				5357C5B720E683BA005EA1F9 /* Info.plist */,
+				5357C5AF20E683B6005EA1F9 /* FantasticView.xcdatamodeld */,
+				5357C5D920E68510005EA1F9 /* FantasticView.swift */,
+			);
+			path = FantasticView;
+			sourceTree = "<group>";
+		};
+		5357C5BF20E683BB005EA1F9 /* FantasticViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5357C5C020E683BB005EA1F9 /* FantasticViewTests.swift */,
+				5357C5C220E683BB005EA1F9 /* Info.plist */,
+			);
+			path = FantasticViewTests;
+			sourceTree = "<group>";
+		};
+		5357C5CA20E683BB005EA1F9 /* FantasticViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5357C5CB20E683BB005EA1F9 /* FantasticViewUITests.swift */,
+				5357C5CD20E683BB005EA1F9 /* Info.plist */,
+			);
+			path = FantasticViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5357C5A420E683B6005EA1F9 /* FantasticView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5357C5D020E683BB005EA1F9 /* Build configuration list for PBXNativeTarget "FantasticView" */;
+			buildPhases = (
+				5357C5A120E683B6005EA1F9 /* Sources */,
+				5357C5A220E683B6005EA1F9 /* Frameworks */,
+				5357C5A320E683B6005EA1F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FantasticView;
+			productName = FantasticView;
+			productReference = 5357C5A520E683B6005EA1F9 /* FantasticView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5357C5BB20E683BA005EA1F9 /* FantasticViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5357C5D320E683BB005EA1F9 /* Build configuration list for PBXNativeTarget "FantasticViewTests" */;
+			buildPhases = (
+				5357C5B820E683BA005EA1F9 /* Sources */,
+				5357C5B920E683BA005EA1F9 /* Frameworks */,
+				5357C5BA20E683BA005EA1F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5357C5BE20E683BB005EA1F9 /* PBXTargetDependency */,
+			);
+			name = FantasticViewTests;
+			productName = FantasticViewTests;
+			productReference = 5357C5BC20E683BB005EA1F9 /* FantasticViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5357C5C620E683BB005EA1F9 /* FantasticViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5357C5D620E683BB005EA1F9 /* Build configuration list for PBXNativeTarget "FantasticViewUITests" */;
+			buildPhases = (
+				5357C5C320E683BB005EA1F9 /* Sources */,
+				5357C5C420E683BB005EA1F9 /* Frameworks */,
+				5357C5C520E683BB005EA1F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5357C5C920E683BB005EA1F9 /* PBXTargetDependency */,
+			);
+			name = FantasticViewUITests;
+			productName = FantasticViewUITests;
+			productReference = 5357C5C720E683BB005EA1F9 /* FantasticViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5357C59D20E683B5005EA1F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Rafael Cunha";
+				TargetAttributes = {
+					5357C5A420E683B6005EA1F9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5357C5BB20E683BA005EA1F9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5357C5A420E683B6005EA1F9;
+					};
+					5357C5C620E683BB005EA1F9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5357C5A420E683B6005EA1F9;
+					};
+				};
+			};
+			buildConfigurationList = 5357C5A020E683B5005EA1F9 /* Build configuration list for PBXProject "FantasticView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5357C59C20E683B5005EA1F9;
+			productRefGroup = 5357C5A620E683B6005EA1F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5357C5A420E683B6005EA1F9 /* FantasticView */,
+				5357C5BB20E683BA005EA1F9 /* FantasticViewTests */,
+				5357C5C620E683BB005EA1F9 /* FantasticViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5357C5A320E683B6005EA1F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5357C5B620E683BA005EA1F9 /* LaunchScreen.storyboard in Resources */,
+				5357C5B320E683BA005EA1F9 /* Assets.xcassets in Resources */,
+				5357C5AE20E683B6005EA1F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5357C5BA20E683BA005EA1F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5357C5C520E683BB005EA1F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5357C5A120E683B6005EA1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5357C5AB20E683B6005EA1F9 /* ViewController.swift in Sources */,
+				5357C5B120E683B6005EA1F9 /* FantasticView.xcdatamodeld in Sources */,
+				5357C5DA20E68510005EA1F9 /* FantasticView.swift in Sources */,
+				5357C5A920E683B6005EA1F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5357C5B820E683BA005EA1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5357C5C120E683BB005EA1F9 /* FantasticViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5357C5C320E683BB005EA1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5357C5CC20E683BB005EA1F9 /* FantasticViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5357C5BE20E683BB005EA1F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5357C5A420E683B6005EA1F9 /* FantasticView */;
+			targetProxy = 5357C5BD20E683BB005EA1F9 /* PBXContainerItemProxy */;
+		};
+		5357C5C920E683BB005EA1F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5357C5A420E683B6005EA1F9 /* FantasticView */;
+			targetProxy = 5357C5C820E683BB005EA1F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5357C5AC20E683B6005EA1F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5357C5AD20E683B6005EA1F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5357C5B420E683BA005EA1F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5357C5B520E683BA005EA1F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5357C5CE20E683BB005EA1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5357C5CF20E683BB005EA1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5357C5D120E683BB005EA1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FantasticView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rcoCompany.FantasticView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5357C5D220E683BB005EA1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FantasticView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rcoCompany.FantasticView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5357C5D420E683BB005EA1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FantasticViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rcoCompany.FantasticViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasticView.app/FantasticView";
+			};
+			name = Debug;
+		};
+		5357C5D520E683BB005EA1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FantasticViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rcoCompany.FantasticViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FantasticView.app/FantasticView";
+			};
+			name = Release;
+		};
+		5357C5D720E683BB005EA1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FantasticViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rcoCompany.FantasticViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FantasticView;
+			};
+			name = Debug;
+		};
+		5357C5D820E683BB005EA1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FantasticViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rcoCompany.FantasticViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FantasticView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5357C5A020E683B5005EA1F9 /* Build configuration list for PBXProject "FantasticView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5357C5CE20E683BB005EA1F9 /* Debug */,
+				5357C5CF20E683BB005EA1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5357C5D020E683BB005EA1F9 /* Build configuration list for PBXNativeTarget "FantasticView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5357C5D120E683BB005EA1F9 /* Debug */,
+				5357C5D220E683BB005EA1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5357C5D320E683BB005EA1F9 /* Build configuration list for PBXNativeTarget "FantasticViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5357C5D420E683BB005EA1F9 /* Debug */,
+				5357C5D520E683BB005EA1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5357C5D620E683BB005EA1F9 /* Build configuration list for PBXNativeTarget "FantasticViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5357C5D720E683BB005EA1F9 /* Debug */,
+				5357C5D820E683BB005EA1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5357C5AF20E683B6005EA1F9 /* FantasticView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5357C5B020E683B6005EA1F9 /* FantasticView.xcdatamodel */,
+			);
+			currentVersion = 5357C5B020E683B6005EA1F9 /* FantasticView.xcdatamodel */;
+			path = FantasticView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5357C59D20E683B5005EA1F9 /* Project object */;
+}
